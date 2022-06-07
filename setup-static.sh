@@ -14,4 +14,5 @@ libstdc++-11-dev-i386-cross \
 libstdc++-10-dev-i386-cross \
 linux-libc-dev-arm64-cross \
 linux-libc-dev-armhf-cross \
-linux-libc-dev-i386-cross -y
+linux-libc-dev-i386-cross \
+libudns-dev -y
