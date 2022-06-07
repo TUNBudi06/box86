@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-
+add_definitions( -static -static-libgcc -static-libstdc++ )
 option(PANDORA "Set to ON if targeting an OpenPandora device" ${PANDORA})
 option(PYRA "Set to ON if targeting an OpenPandora device" ${PYRA})
 option(RPI2 "Set to ON if targeting an RaspberryPI2 device" ${RPI2})
