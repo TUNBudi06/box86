@@ -1,8 +1,10 @@
 apt update
 apt upgrade -y
+apt install apt-utils
+apt install dialog
 
 #installing dependency
-apt install python3 build-essential gcc nano -y
+apt install cmake python3 build-essential gcc nano -y
 
 #installing static library
 apt install apt install \
